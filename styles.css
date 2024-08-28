@@ -1,0 +1,155 @@
+/*Default*/
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  a:visited {
+    color: black;
+  }
+
+  a:hover {
+    color: white;
+  }
+  
+  /*Navbar*/
+  
+  ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    width: 100%;
+    background-color: #d3af37;
+    height: 60px;
+    z-index: 5;
+  }
+  
+  .nav-list {
+    display: flex;
+  }
+  
+  li {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    font-weight: bold;
+    font-family: Georgia, serif;
+  }
+  
+  /*WELCOME SECTION*/
+  
+  .welcome-section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    font-style: italic;
+  }
+  
+  .welcome-section > h1 {
+   color: #d3af37;
+   font-size: 2.5em;
+  }
+  
+  .welcome-section > p {
+    color: white;
+    font-size: 1.5em;
+  }
+  
+  /*PROJECT SECTION*/
+  
+  .project-section {
+    width: 100%;
+    height: 100vh;
+    font-family: Helvetica Neue, serif;
+    text-align: center;
+    font-style: italic;
+    background-color: #404040;
+  }
+  
+  h2 {
+    color: white;
+    padding-top: 150;
+    padding-bottom: 100;
+  }
+  
+  .project-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px 50px;
+    width: 50vw;
+    height: 50vh;
+    margin: auto;
+  }
+  
+  #project1 {
+    background-color: #d3af37;
+  }
+  
+  #project2 {
+    background-color: #d3af37;
+  }
+  
+  #project3 {
+    background-color: #d3af37;
+  }
+  
+  #project4 {
+    background-color: #d3af37;
+  }
+  
+  .project-tile-img {
+    width: 100%;
+    height: 25vh;
+  }
+  
+  .project-tile-heading {
+    font-weight: bold;
+    font-family: Georgia, serif;
+  }
+  
+  /*CONTACT SECTION*/
+  
+  .contact-section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    font-style: italic;
+  }
+  
+  .contact-section > h1 {
+    color: #d3af37;
+    font-size: 2.5em;
+    padding-bottom: 50px;
+  }
+
+  .fa-contact-links > p {
+    display: flex;
+    flex-direction: row;
+  }
+
+  i {
+    color: white;
+    font-size: 2.5em;
+    padding: 0 30px;
+
+  }
+  
+  @media (max-width: 28.75em) {
+    .contact-section-header > h2 {
+      font-size: 4rem;
+    }
+  }
